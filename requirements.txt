@@ -1,0 +1,24 @@
+# Existing dependencies
+langgraph>=0.2
+langchain-openai>=0.1
+langchain-core>=0.2
+langchain-community>=0.2
+python-dotenv
+pydantic>=2
+streamlit>=1.35
+pandas
+google-genai
+textstat>=0.7
+pymupdf>=1.24        # PDF ingestion (fitz)
+language-tool-python>=2.7   # grammar analysis
+ragas>=0.1
+
+# New – RAG layer (Response 1)
+pinecone>=3.0
+sentence-transformers>=3.0
+
+# New – Fact Check + SEO agents (Response 2)
+# (no extra deps – uses existing LLM)
+
+# Research tools
+tavily-python
